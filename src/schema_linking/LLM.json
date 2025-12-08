@@ -1,0 +1,1038 @@
+[
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`County Name`",
+            "frpm.`Free Meal Count (K-12)`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Percent (%) Eligible Free (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`StatusType`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Charter`",
+            "schools.`CharterNum`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Free Meal Count (Ages 5-17)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "frpm.`Percent (%) Eligible Free (Ages 5-17)`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`SOCType`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`County Name`",
+            "frpm.`Charter School (Y/N)`",
+            "schools.`CDSCode`",
+            "schools.`Zip`",
+            "schools.`County`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`FRPM Count (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`MailStreet`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Charter School (Y/N)`",
+            "frpm.`Charter Funding Type`",
+            "schools.`CDSCode`",
+            "schools.`Phone`",
+            "schools.`OpenDate`",
+            "schools.`Charter`",
+            "schools.`FundingType`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "schools.`CDSCode`",
+            "schools.`Virtual`",
+            "schools.`School`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`Magnet`",
+            "schools.`NCESDist`",
+            "schools.`NCESSchool`",
+            "schools.`StatusType`",
+            "schools.`County`",
+            "schools.`District`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Phone`",
+            "schools.`Website`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "satscores.`NumGE1500`",
+            "schools.`CDSCode`",
+            "schools.`Phone`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`City`",
+            "schools.`State`",
+            "schools.`Zip`",
+            "schools.`MailStreet`",
+            "schools.`MailCity`",
+            "schools.`MailZip`",
+            "schools.`MailState`",
+            "schools.`Website`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`FRPM Count (K-12)`",
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "frpm.`School Name`",
+            "satscores.`sname`",
+            "frpm.`Enrollment (K-12)`",
+            "satscores.`enroll12`",
+            "frpm.`District Name`",
+            "satscores.`dname`",
+            "frpm.`County Name`",
+            "satscores.`cname`",
+            "frpm.`Academic Year`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "schools.`CDSCode`",
+            "schools.`Charter`",
+            "schools.`FundingType`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`StatusType`",
+            "schools.`OpenDate`",
+            "schools.`ClosedDate`",
+            "schools.`CharterNum`",
+            "schools.`DOCType`",
+            "schools.`SOCType`",
+            "schools.`EdOpsName`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrRead`",
+            "frpm.`CDSCode`",
+            "frpm.`FRPM Count (Ages 5-17)`",
+            "schools.`CDSCode`",
+            "schools.`School`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`CDSCode`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumGE1500`",
+            "satscores.`NumTstTakr`",
+            "frpm.`CDSCode`",
+            "frpm.`Free Meal Count (Ages 5-17)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "satscores.`sname`",
+            "satscores.`dname`",
+            "satscores.`cname`",
+            "frpm.`School Name`",
+            "frpm.`District Name`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumGE1500`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`Phone`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`School Name`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`NCESSchool`",
+            "frpm.`CDSCode`",
+            "schools.`CDSCode`",
+            "frpm.`Academic Year`",
+            "schools.`NCESDist`",
+            "schools.`StatusType`",
+            "schools.`County`",
+            "schools.`District`",
+            "schools.`School`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrRead`",
+            "schools.`CDSCode`",
+            "schools.`District`",
+            "schools.`StatusType`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`School`",
+            "schools.`District`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`sname`",
+            "satscores.`AvgScrWrite`",
+            "schools.`CharterNum`",
+            "satscores.`cds`",
+            "schools.`CDSCode`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`FundingType`",
+            "schools.`School`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "schools.`CDSCode`",
+            "schools.`Phone`",
+            "schools.`School`",
+            "satscores.`sname`",
+            "satscores.`dname`",
+            "satscores.`cname`",
+            "satscores.`enroll12`",
+            "satscores.`NumTstTakr`",
+            "satscores.`AvgScrRead`",
+            "satscores.`AvgScrWrite`",
+            "satscores.`NumGE1500`",
+            "schools.`District`",
+            "schools.`County`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Low Grade`",
+            "frpm.`High Grade`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`StatusType`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`MailCity`",
+            "schools.`MailZip`",
+            "schools.`MailState`",
+            "schools.`OpenDate`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Free Meal Count (K-12)`",
+            "frpm.`FRPM Count (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`District`",
+            "schools.`School`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Charter`",
+            "schools.`CharterNum`",
+            "schools.`FundingType`",
+            "schools.`StatusType`",
+            "schools.`OpenDate`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`NumTstTakr`",
+            "satscores.`sname`",
+            "schools.`County`",
+            "schools.`School`",
+            "schools.`CDSCode`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`School Name`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`CDSCode`",
+            "frpm.`CDSCode`",
+            "schools.`School`",
+            "schools.`StreetAbr`",
+            "schools.`MailStreet`",
+            "schools.`MailCity`",
+            "schools.`MailZip`",
+            "schools.`MailState`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`School Name`",
+            "frpm.`Percent (%) Eligible Free (K-12)`",
+            "satscores.`NumTstTakr`",
+            "satscores.`NumGE1500`",
+            "schools.`School`",
+            "frpm.`CDSCode`",
+            "satscores.`cds`",
+            "schools.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Free Meal Count (K-12)`",
+            "satscores.`AvgScrRead`",
+            "satscores.`AvgScrMath`",
+            "satscores.`AvgScrWrite`",
+            "frpm.`District Name`",
+            "satscores.`dname`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`City`",
+            "schools.`FundingType`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`School Name`",
+            "frpm.`FRPM Count (Ages 5-17)`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`State`",
+            "schools.`Zip`",
+            "schools.`CDSCode`",
+            "frpm.`CDSCode`",
+            "frpm.`County Name`",
+            "frpm.`District Name`",
+            "frpm.`School Type`",
+            "frpm.`High Grade`",
+            "frpm.`Low Grade`",
+            "frpm.`Percent (%) Eligible FRPM (Ages 5-17)`",
+            "schools.`District`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`AvgScrWrite`",
+            "schools.`School`",
+            "schools.`Phone`",
+            "schools.`OpenDate`",
+            "schools.`ClosedDate`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "frpm.`Charter Funding Type`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`DOCType`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`OpenDate`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`StatusType`",
+            "schools.`Charter`",
+            "schools.`CharterNum`",
+            "schools.`FundingType`",
+            "schools.`DOC`",
+            "schools.`DOCType`",
+            "schools.`SOC`",
+            "schools.`SOCType`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "schools.`City`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Free Meal Count (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`School`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`School Name`",
+            "frpm.`FRPM Count (K-12)`",
+            "frpm.`Enrollment (K-12)`",
+            "frpm.`Percent (%) Eligible FRPM (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`SOC`",
+            "schools.`SOCType`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`School Name`",
+            "frpm.`Free Meal Count (Ages 5-17)`",
+            "schools.`Website`",
+            "schools.`School`",
+            "frpm.`CDSCode`",
+            "schools.`CDSCode`",
+            "frpm.`Academic Year`",
+            "frpm.`County Name`",
+            "frpm.`District Name`",
+            "frpm.`District Type`",
+            "frpm.`School Type`",
+            "frpm.`Charter School (Y/N)`",
+            "frpm.`Charter School Number`",
+            "frpm.`Charter Funding Type`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`NCESDist`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`Free Meal Count (Ages 5-17)`",
+            "frpm.`Enrollment (Ages 5-17)`",
+            "schools.`CDSCode`",
+            "schools.`AdmFName1`",
+            "schools.`AdmLName1`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Phone`",
+            "schools.`Website`",
+            "schools.`OpenDate`",
+            "schools.`ClosedDate`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Charter School (Y/N)`",
+            "frpm.`Enrollment (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`AdmEmail1`",
+            "schools.`AdmEmail2`",
+            "schools.`AdmEmail3`",
+            "schools.`Charter`",
+            "schools.`CharterNum`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`StatusType`",
+            "schools.`OpenDate`",
+            "schools.`ClosedDate`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumGE1500`",
+            "schools.`CDSCode`",
+            "schools.`AdmFName1`",
+            "schools.`AdmLName1`",
+            "schools.`AdmFName2`",
+            "schools.`AdmLName2`",
+            "schools.`AdmFName3`",
+            "schools.`AdmLName3`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumGE1500`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`Website`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`NumTstTakr`",
+            "schools.`OpenDate`",
+            "schools.`City`",
+            "schools.`CDSCode`",
+            "satscores.`cds`",
+            "schools.`District`",
+            "satscores.`sname`",
+            "satscores.`dname`",
+            "satscores.`cname`",
+            "schools.`StatusType`",
+            "schools.`School`",
+            "schools.`County`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`MailCity`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrRead`",
+            "schools.`CDSCode`",
+            "schools.`District`",
+            "schools.`Phone`",
+            "schools.`School`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrRead`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`County`",
+            "schools.`Virtual`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "schools.`CDSCode`",
+            "schools.`EdOpsName`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`StatusType`",
+            "schools.`Charter`",
+            "schools.`CharterNum`",
+            "schools.`FundingType`",
+            "schools.`DOCType`",
+            "schools.`SOCType`",
+            "schools.`EdOpsCode`",
+            "schools.`EILName`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "satscores.`AvgScrRead`",
+            "satscores.`AvgScrWrite`",
+            "schools.`CDSCode`",
+            "schools.`County`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`NumTstTakr`",
+            "satscores.`NumGE1500`",
+            "satscores.`AvgScrWrite`",
+            "schools.`CDSCode`",
+            "schools.`City`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`AvgScrWrite`",
+            "satscores.`sname`",
+            "schools.`AdmFName1`",
+            "schools.`AdmLName1`",
+            "schools.`School`",
+            "schools.`CDSCode`",
+            "satscores.`cds`",
+            "schools.`AdmEmail1`",
+            "schools.`AdmFName2`",
+            "schools.`AdmLName2`",
+            "schools.`AdmEmail2`",
+            "schools.`AdmFName3`",
+            "schools.`AdmLName3`",
+            "schools.`AdmEmail3`",
+            "schools.`LastUpdate`"
+        ]
+    },
+    {
+        "tables": [
+            "frpm",
+            "schools"
+        ],
+        "columns": [
+            "frpm.`CDSCode`",
+            "frpm.`Enrollment (K-12)`",
+            "schools.`CDSCode`",
+            "schools.`DOC`",
+            "schools.`School`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`StatusType`",
+            "schools.`Street`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Phone`",
+            "schools.`Website`",
+            "schools.`OpenDate`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`OpenDate`",
+            "schools.`County`",
+            "schools.`DOC`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`DOC`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`County`",
+            "schools.`School`",
+            "schools.`ClosedDate`",
+            "schools.`StatusType`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrMath`",
+            "satscores.`sname`",
+            "schools.`CDSCode`",
+            "schools.`School`",
+            "schools.`Street`",
+            "schools.`StreetAbr`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`AvgScrRead`",
+            "satscores.`sname`",
+            "schools.`MailStreet`",
+            "schools.`School`",
+            "satscores.`cds`",
+            "schools.`CDSCode`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`cds`",
+            "satscores.`AvgScrRead`",
+            "satscores.`AvgScrMath`",
+            "satscores.`AvgScrWrite`",
+            "schools.`CDSCode`",
+            "schools.`MailCity`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`NumTstTakr`",
+            "schools.`MailCity`",
+            "schools.`CDSCode`",
+            "satscores.`cds`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`School`",
+            "schools.`MailZip`",
+            "schools.`AdmFName1`",
+            "schools.`AdmLName1`",
+            "schools.`AdmEmail1`",
+            "schools.`AdmFName2`",
+            "schools.`AdmLName2`",
+            "schools.`AdmEmail2`",
+            "schools.`AdmFName3`",
+            "schools.`AdmLName3`",
+            "schools.`AdmEmail3`",
+            "schools.`CDSCode`",
+            "schools.`County`",
+            "schools.`District`",
+            "schools.`City`",
+            "schools.`Zip`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`County`",
+            "schools.`MailState`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`MailState`",
+            "schools.`StatusType`",
+            "schools.`City`"
+        ]
+    },
+    {
+        "tables": [
+            "satscores",
+            "schools"
+        ],
+        "columns": [
+            "satscores.`AvgScrWrite`",
+            "satscores.`cds`",
+            "schools.`Phone`",
+            "schools.`Ext`",
+            "schools.`CDSCode`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`Phone`",
+            "schools.`Ext`",
+            "schools.`School`",
+            "schools.`Zip`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`Website`",
+            "schools.`AdmFName1`",
+            "schools.`AdmLName1`",
+            "schools.`AdmFName2`",
+            "schools.`AdmLName2`",
+            "schools.`AdmFName3`",
+            "schools.`AdmLName3`",
+            "schools.`School`",
+            "schools.`CDSCode`",
+            "schools.`District`",
+            "schools.`County`",
+            "schools.`City`",
+            "schools.`Zip`",
+            "schools.`State`",
+            "schools.`Phone`"
+        ]
+    },
+    {
+        "tables": [
+            "schools"
+        ],
+        "columns": [
+            "schools.`CDSCode`",
+            "schools.`Website`",
+            "schools.`County`",
+            "schools.`Charter`",
+            "schools.`Virtual`"
+        ]
+    }
+]
