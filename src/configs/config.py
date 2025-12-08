@@ -1,6 +1,6 @@
-dev_databases_path = '..'
-dev_json_path = '..'
+dev_databases_path = 'database/dev_databases'
+dev_json_path = 'data/dev.json'
 
 model='..' #gpt-4o or deepseek-coder
 api = '..'
-base_url = '..'
+base_url = 'http://'
