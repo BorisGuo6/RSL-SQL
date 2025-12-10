@@ -3,7 +3,7 @@ import sqlite3
 import threading
 import os
 import sqlglot
-from configs.config import dev_databases_path
+from src.configs.config import dev_databases_path
 
 
 

@@ -1,10 +1,33 @@
 import json
 import copy
+import sys
+import os
+
+# 添加项目根目录到 Python 路径，以便正确导入 src 模块
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 from src.utils.util import get_all_schema, extract_tables_and_columns
 from src.configs.config import dev_json_path
 
 
-def recall_get_table(json_file='schema_gpt.json'):
+def recall_get_table(json_file='schema.json'):
+    """
+    计算模式链接的召回率指标
+    
+    功能：评估模式链接的严格召回率（SRR）和非严格召回率（NSR）
+    对应论文：Section IV-B3, IV-B4 - Strict Recall Rate (SRR) and Non-Strict Recall (NSR)
+    
+    处理流程：
+    1. 从 ground truth SQL 中提取真实的模式元素（表、列）
+    2. 从预测的模式链接结果中提取预测的模式元素
+    3. 计算严格召回率（SRR）：所有必需元素都被成功召回的比例
+    4. 计算非严格召回率（NSR）：召回元素与真实元素的交集比例
+    
+    参数：
+        json_file: 模式链接结果文件路径（默认：schema.json）
+    """
     # 存储每个gold sql中，涉及的所有 table_name.column_name
     stats = []
     stats_1 = []
@@ -14,7 +37,7 @@ def recall_get_table(json_file='schema_gpt.json'):
         dev_set = json.load(f)
 
 
-    # schema linking
+    # schema linking - 从 ground truth SQL 中提取真实的模式元素
     ground_truths = []
     for example in dev_set:
         ground_truth = []
@@ -29,7 +52,11 @@ def recall_get_table(json_file='schema_gpt.json'):
         stats.append(len(ground_truth))
         ground_truths.append(ground_truth)
 
-    ### schema linking_pred
+    ### schema linking_pred - 从预测的模式链接结果中提取预测的模式元素
+    # 如果 json_file 是相对路径，则基于项目根目录解析
+    if not os.path.isabs(json_file):
+        json_file = os.path.join(project_root, json_file)
+    
     with open(json_file, 'r') as f:
         clms = json.load(f)
     pred_truths = []
@@ -74,4 +101,4 @@ def recall_get_table(json_file='schema_gpt.json'):
     print("NSR: ", num_nsr / num_all)
 
 
-recall_get_table(json_file='schema.json')
+recall_get_table(json_file='src/schema_linking/schema.json')
